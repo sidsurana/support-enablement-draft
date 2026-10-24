@@ -1,0 +1,54 @@
+{
+  "project": "arphie",
+  "title": "Turn a support issue into clearer help",
+  "description": "Synthesize deduplicated support evidence into a draft enablement article and product-feedback proposal.",
+  "capability": "support-enablement",
+  "sections": [
+    {
+      "id": "themes",
+      "title": "Issue to address"
+    },
+    {
+      "id": "article",
+      "title": "Draft help article"
+    },
+    {
+      "id": "feedback",
+      "title": "Product follow-up"
+    }
+  ],
+  "gatewayTask": "cos.arphie.support-enablement.v1",
+  "gatewayProject": "sid-cos-arphie-firstvalue-20261021",
+  "company": "Arphie",
+  "purpose": "Draft a short help article and a product follow-up from support notes, ready for a teammate to review.",
+  "label": "Support notes",
+  "notesKey": "pilots",
+  "example": "Open issue: A pilot reviewer found that an old saved answer contradicts the current product guide.\n\nStill needed: The source owner has not approved a replacement answer.\n\nAlready resolved: Yesterday\u2019s permissions issue is closed; it is not blocking the pilot.\n\nThis is a fictional example, not a real customer ticket.",
+  "support": {
+    "metrics": "No support aggregates or performance baseline supplied. Do not invent counts or outcomes.",
+    "taxonomy": "Determine current issues only from supplied statuses. Resolved permissions history is not a current blocker.",
+    "guidance": "Compare citations with approved current documentation, quarantine stale answers, assign a source owner, route uncertain claims for human review."
+  },
+  "color": "#7448b3",
+  "bg": "#fbfaff",
+  "accent": "#eee5f8",
+  "url": "https://www.arphie.ai",
+  "evidenceIds": [
+    "metrics",
+    "taxonomy",
+    "pilots",
+    "guidance",
+    "limits"
+  ],
+  "paused": false,
+  "sources": [
+    {
+      "label": "Arphie \u2014 role responsibilities",
+      "url": "https://www.arphie.ai/careers/founding-business-operations"
+    },
+    {
+      "label": "Arphie \u2014 product context",
+      "url": "https://www.arphie.ai"
+    }
+  ]
+}

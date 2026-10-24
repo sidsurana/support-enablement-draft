@@ -1,0 +1,10 @@
+{
+  "name": "support-enablement-draft",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test.js dom-test.js"
+  },
+  "description": "Prepare help article and product follow-up drafts from synthetic support notes.",
+  "license": "MIT"
+}
